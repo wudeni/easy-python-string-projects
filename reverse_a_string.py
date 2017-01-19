@@ -1,7 +1,6 @@
-import string
+#Enter a string & this python program will reverse it and print it
 name = input('Enter your Name:- ')
 lst = list()
-name = name.lower()
 for char in name:
 	lst.append(char)
 delimiter = ''
