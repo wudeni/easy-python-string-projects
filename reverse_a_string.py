@@ -5,5 +5,5 @@ name = name.lower()
 for char in name:
 	lst.append(char)
 delimiter = ''
-lst = delimiter.join(lst[::-1])
+lst = delimiter.join(lst[::-1]).title()
 print('Your alien name is :', lst)
